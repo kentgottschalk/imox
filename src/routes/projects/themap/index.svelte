@@ -4,9 +4,9 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Imox - TheMap</title>
 </svelte:head>
 
 <Container>
-	<Card title="Hobbybingo" subtitle="Middle Earth SBG" />
+	<h1 class="font-semibold italic text-4xl mb-10">The Map</h1>
 </Container>

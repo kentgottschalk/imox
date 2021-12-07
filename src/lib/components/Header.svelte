@@ -5,7 +5,7 @@
 <header class="absolute p-3 bg-red-100 top-5 left-5 text-gray-900">
 	<nav>
 		<ul>
-			<li class:active={$page.path === '/'} class="pb-2 underline">
+			<li class:active={$page.path === '/'} class="pb-2 underline text-center">
 				<a sveltekit:prefetch href="/" class="font-bold">IMOX</a>
 			</li>
 			<div class="flex flex-col">
@@ -27,6 +27,9 @@
 			</div>
 			<li class:active={$page.path === '/projects/hobbybingo'} class="pl-3">
 				<a sveltekit:prefetch href="/projects/hobbybingo">HobbyBingo</a>
+			</li>
+			<li class:active={$page.path === '/projects/themap'} class="pl-3">
+				<a sveltekit:prefetch href="/projects/themap">TheMap</a>
 			</li>
 			<li class:active={$page.path === '/about'}><a sveltekit:prefetch href="/about">About</a></li>
 		</ul>
