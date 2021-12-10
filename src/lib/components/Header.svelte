@@ -2,17 +2,17 @@
 	import { page } from '$app/stores';
 </script>
 
-<header class="absolute p-3 bg-red-100 top-5 left-5 text-gray-900">
+<header class="absolute p-3 bg-gray-900 top-5 left-5 text-white rounded-sm w-40">
 	<nav>
 		<ul>
 			<li class:active={$page.path === '/'} class="pb-2 underline text-center">
 				<a sveltekit:prefetch href="/" class="font-bold">IMOX</a>
 			</li>
-			<div class="flex flex-col">
+			<div class="flex items-center justify-between">
 				<span>Projects</span>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="h-6 w-6 animate-bounce transform rotate-45"
+					class="h-4 w-4"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke="currentColor"
@@ -30,6 +30,9 @@
 			</li>
 			<li class:active={$page.path === '/projects/themap'} class="pl-3">
 				<a sveltekit:prefetch href="/projects/themap">TheMap</a>
+			</li>
+			<li class:active={$page.path === '/notes'}>
+				<a sveltekit:prefetch href="/notes">Notes</a>
 			</li>
 			<li class:active={$page.path === '/about'}><a sveltekit:prefetch href="/about">About</a></li>
 		</ul>

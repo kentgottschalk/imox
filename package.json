@@ -28,6 +28,7 @@
 	"type": "module",
 	"dependencies": {
 		"@lukeed/uuid": "^2.0.0",
+		"@macfja/svelte-persistent-store": "^1.2.0",
 		"cookie": "^0.4.1"
 	}
 }

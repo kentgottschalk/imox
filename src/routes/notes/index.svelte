@@ -19,12 +19,9 @@
 </script>
 
 <svelte:head>
-	<title>Imox - About</title>
+	<title>Imox - Notes</title>
 </svelte:head>
 
 <Container>
-	<h1 class="font-semibold italic text-4xl mb-10">About</h1>
-	<p>Random Webdev Projects & Notes</p>
-	<p>Basically a place to play with different webdev technologies and store random notes.</p>
-	<p>In the first place mainly sveltekit focused.</p>
+	<h1 class="font-semibold italic text-4xl mb-10">Notes</h1>
 </Container>

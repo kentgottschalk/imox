@@ -7,6 +7,4 @@
 	<title>Home</title>
 </svelte:head>
 
-<Container>
-	<Card title="Hobbybingo" subtitle="Middle Earth SBG" />
-</Container>
+<Container />
